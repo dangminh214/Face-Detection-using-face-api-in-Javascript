@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;   
+    height: 100vh;
+}
+
+#name {
+    margin-right: 50px;
+}
+
+form {
+    display: flex;
+}
+
+h1 {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: 999;
+    margin: 0px;
+    display: block;
+}
+
+#uploadMessage {
+    position: flex;
+}
+
+#videoElm {
+    position: flex;
+    margin: 20px;
+    margin-top: 110px;
+}
+
+canvas {
+    position: absolute;
+    margin: 10px;
+    margin-top: 110px;
+}
+

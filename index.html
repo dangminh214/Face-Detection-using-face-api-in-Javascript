@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>face detection by Dang Minh</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="face-api.min.js" defer></script>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1 id="h1_text">Please wait for the data loads at the start of the page
+            <p id="img_title">If this is your first time, please up load your image and your name</p>
+            <form action="#" method="post" enctype="multipart/form-data" id="uploadForm">
+                <p id="name_text">Please give your name in: </p>
+                <input type="text" placeholder="Your Name" id="name"/>
+                <input type="file" name="images" accept="image/jpeg" multiple/>
+                <button type="button" onclick="uploadImages()">Upload Images</button>
+            </form>
+
+            <div id="uploadMessage" style="display: none;">Upload Success</div>
+            <div id="warningMessage" style="display: none;">This name is already used. Please use another name</div>
+    </h1>
+    
+    <video src="" autoplay="true" id="videoElm"></video>
+</body>
+</html>
