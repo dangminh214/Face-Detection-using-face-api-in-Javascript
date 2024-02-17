@@ -1,5 +1,6 @@
 Face detection using Javascript and library face-api
-![image](https://github.com/dangminh214/Face-detection-test/assets/51837721/c52784a4-f24c-4021-a054-3ff73a1bd3fd)
+![image](https://github.com/dangminh214/Face-Detection-using-face-api-in-Javascript/assets/51837721/02e2cd5b-56fc-4cf4-abdc-ca43c289734e)
+
 
 To run: open the whole document using VSC, and access to local host: http://127.0.0.1:5500/
 All the daten are saved under data/${name of the saved}/${1-4}.jpeg
